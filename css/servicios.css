@@ -1,0 +1,30 @@
+#servicios h3, h4{
+    text-align: center;
+}
+#servicios .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #333;
+    padding: 20px;
+}
+
+#servicios article{
+    margin: 15px;
+}
+#servicios img{
+    width: 180%;
+    max-width: 180px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+@media (min-width:480px){
+    .servicios{
+    width: 40%;
+    }
+    }
+@media (min-width:1024px){
+    .servicios{
+    width: auto;
+    }
+    }
